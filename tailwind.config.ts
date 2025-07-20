@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				adventure: {
+					sunset: 'hsl(var(--adventure-sunset))',
+					orange: 'hsl(var(--adventure-orange))',
+					warm: 'hsl(var(--adventure-warm))',
+					earth: 'hsl(var(--adventure-earth))',
+					sky: 'hsl(var(--adventure-sky))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -89,6 +96,18 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'adventure': 'var(--shadow-adventure)'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-button': 'var(--gradient-button)'
+			},
+			transitionProperty: {
+				'smooth': 'var(--transition-smooth)'
 			}
 		}
 	},
